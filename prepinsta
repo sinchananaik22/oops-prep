@@ -1,0 +1,396 @@
+
+
+# 📘 OOPS (Object-Oriented Programming) Interview Questions & Answers
+
+---
+
+### **Q1. What is a class?**
+
+A class is a blueprint, design, or prototype that describes an object’s features (data members) and behaviors (methods).
+
+---
+
+### **Q2. What is the need for OOPs?**
+
+* Provides data protection and control.
+* Supports data hiding.
+* Ensures code reusability.
+* Reduces redundancy.
+* Improves code maintenance.
+
+---
+
+### **Q3. What is an object?**
+
+An object is a **self-contained unit** representing a real-world entity with attributes (data) and methods (functions).
+
+---
+
+### **Q4. Define a constructor.**
+
+A constructor is a special method that **initializes the state of an object** when it is created.
+
+**Rules:**
+
+* Name must match the class name.
+* Cannot have a return type.
+
+---
+
+### **Q5. Define Destructor.**
+
+A destructor is a special method used to **release resources** when an object is destroyed or goes out of scope.
+
+---
+
+### **Q6. Difference between Multiple and Multilevel Inheritance**
+
+| Multiple Inheritance                          | Multilevel Inheritance                                        |
+| --------------------------------------------- | ------------------------------------------------------------- |
+| Class inherits from more than one base class. | Class inherits from another class which itself is a subclass. |
+| Example: Child inherits Mother & Father.      | Example: SportsCar inherits Car, which inherits Vehicle.      |
+
+---
+
+### **Q7. What is a superclass?**
+
+A superclass (or base class) is a parent class from which other classes inherit.
+
+---
+
+### **Q8. Difference between Overloading and Overriding**
+
+| Overloading                      | Overriding                                               |
+| -------------------------------- | -------------------------------------------------------- |
+| Same name, different parameters. | Child class redefines parent method with same signature. |
+| Compile-time (early binding).    | Runtime (late binding).                                  |
+
+---
+
+### **Q9. What is a friend function?**
+
+A non-member function that can **access private/protected data** of a class in which it is declared as a friend.
+
+---
+
+### **Q10. What is a virtual function?**
+
+A function in a base class declared with `virtual` keyword, which can be **overridden by derived classes**.
+
+---
+
+### **Q11. What is Exception Handling?**
+
+Mechanism to handle runtime errors using **try, catch, throw**.
+
+---
+
+### **Q12. What is Encapsulation?**
+
+Wrapping of **data and methods into a single unit** (class). Access is controlled using **public, private, protected**.
+
+---
+
+### **Q13. What is Inheritance? Uses?**
+
+Inheritance allows one class to acquire properties of another.
+
+**Uses:**
+
+* Code reusability
+* Method overriding (runtime polymorphism)
+
+---
+
+### **Q14. What are Static Binding and Dynamic Binding?**
+
+* **Static Binding:** Resolved at compile-time (early binding).
+* **Dynamic Binding:** Resolved at runtime (late binding).
+
+---
+
+### **Q15. Can you call base class method without creating an instance?**
+
+Yes, if:
+
+* The method is `static`.
+* Or it is called from a derived class using `base` keyword.
+
+---
+
+### **Q16. How can we call the base method without creating an instance?**
+
+By using `base` keyword in a derived class, provided the method is `static`.
+
+---
+
+### **Q17. Differences between Constructor and Method**
+
+| Constructor            | Method              |
+| ---------------------- | ------------------- |
+| Same name as class.    | Any name allowed.   |
+| Initializes objects.   | Performs actions.   |
+| Invoked automatically. | Invoked explicitly. |
+| No return type.        | Has return type.    |
+
+---
+
+### **Q18. Why OOPS is needed?**
+
+* Data security
+* Reusability
+* Code maintenance
+* Abstraction & Encapsulation
+
+---
+
+### **Q19. Types of Constructors**
+
+1. **Default Constructor** – no parameters.
+2. **Parameterized Constructor** – accepts arguments.
+3. **Copy Constructor** – copies an existing object.
+
+---
+
+### **Q20. What is a try/catch block?**
+
+It is used to handle exceptions by catching errors and preventing program termination.
+
+---
+
+### **Q21. Types of Inheritance**
+
+* Single
+* Multiple
+* Multilevel
+* Hierarchical
+* Hybrid
+
+---
+
+### **Q22. Disadvantages of OOPS**
+
+* Not suitable for all scenarios.
+* More complex programs.
+* Requires careful design.
+* Slower execution in some cases.
+
+---
+
+### **Q23. What is Hybrid Inheritance?**
+
+A combination of two or more types of inheritance.
+
+---
+
+### **Q24. What is an Interface?**
+
+A collection of **abstract methods** that a class must implement.
+
+---
+
+### **Q25. How is Data Abstraction accomplished?**
+
+* Using abstract classes and interfaces.
+* By hiding implementation details and exposing only necessary features.
+
+---
+
+### **Q26. Can we run Java without OOP concepts?**
+
+Yes, but Java is designed around OOP. Avoiding OOP makes the code less structured.
+
+---
+
+### **Q27. What is Abstraction?**
+
+The process of **hiding implementation details** and exposing only essential features.
+
+---
+
+### **Q28. Other Paradigms besides OOP**
+
+* Imperative Programming
+* Structured Programming
+* Procedural Programming
+* Functional Programming
+* Declarative Programming
+* Logic Programming
+
+---
+
+### **Q29. Difference between Structured Programming and OOP**
+
+| Structured                | OOP                             |
+| ------------------------- | ------------------------------- |
+| Focuses on functions.     | Focuses on objects.             |
+| Limited reusability.      | High reusability (inheritance). |
+| No built-in polymorphism. | Supports polymorphism.          |
+
+---
+
+### **Q30. Limitations of OOPs**
+
+* Complex design.
+* Performance overhead.
+* Difficult learning curve.
+
+---
+
+### **Q31. How to prevent inheritance in a class?**
+
+Declare the class as **final** (Java, C++).
+
+---
+
+### **Q32. SOLID Principles**
+
+1. **S**ingle Responsibility
+2. **O**pen/Closed
+3. **L**iskov Substitution
+4. **I**nterface Segregation
+5. **D**ependency Inversion
+
+---
+
+### **Q33. What are Getter and Setter methods?**
+
+* **Getter:** Retrieve attribute value.
+* **Setter:** Modify attribute value (with validation).
+
+---
+
+### **Q34. How is Runtime Polymorphism achieved?**
+
+Through **method overriding** using `virtual` functions in C++ or dynamic dispatch in Java.
+
+---
+
+### **Q35. What are Access Modifiers?**
+
+* Private
+* Public
+* Protected
+* Friend
+* Protected Friend
+
+---
+
+### **Q36. Limitations of Inheritance**
+
+* Tight coupling between classes.
+* More difficult debugging.
+* Complex changes when parent class is modified.
+
+---
+
+### **Q37. Difference between Abstraction and Encapsulation**
+
+| Abstraction                                 | Encapsulation                    |
+| ------------------------------------------- | -------------------------------- |
+| Focuses on **what** to expose.              | Focuses on **how** to hide data. |
+| Achieved using abstract classes/interfaces. | Achieved using access modifiers. |
+
+---
+
+### **Q38. Difference between Class and Structure**
+
+| Class                  | Structure           |
+| ---------------------- | ------------------- |
+| Reference type (heap). | Value type (stack). |
+| Supports inheritance.  | No inheritance.     |
+| Can be null.           | Cannot be null.     |
+
+---
+
+### **Q39. Types of Arguments**
+
+* **Call by Value** – Changes local only.
+* **Call by Reference** – Changes reflected globally.
+
+---
+
+### **Q40. Why Java does not support Multiple Inheritance?**
+
+To avoid **diamond problem** and ambiguity. Achieved using **interfaces** instead.
+
+---
+
+### **Q41. Similarities between Class and Structure**
+
+* Can have methods, constructors, constants, events.
+* Can implement interfaces.
+* Support access specifiers.
+
+---
+
+### **Q42. Is Java pure OOP?**
+
+No. Because:
+
+* Supports primitive data types.
+* Static methods can be called without objects.
+
+---
+
+### **Q43. How many types of inheritance are present?**
+
+* Single
+* Multiple
+* Multilevel
+* Hierarchical
+* Hybrid
+
+---
+
+### **Q44. Types of Constructors in C++**
+
+* Default
+* Parameterized
+* Copy constructor
+
+---
+
+### **Q45. What is Casting?**
+
+Conversion between parent and child classes.
+
+* **Upcasting**
+* **Downcasting**
+
+---
+
+### **Q46. What are Access Specifiers?**
+
+Keywords to **control visibility** of class members (public, private, protected).
+
+---
+
+### **Q47. What is an Abstract Class?**
+
+A class that **cannot be instantiated** and may contain abstract methods.
+
+---
+
+### **Q48. Characteristics of Abstract Class**
+
+* Used for upcasting.
+* Can define both abstract and concrete methods.
+
+---
+
+### **Q49. Difference between Extends and Implements**
+
+| Extends                         | Implements                              |
+| ------------------------------- | --------------------------------------- |
+| A class inherits another class. | A class implements an interface.        |
+| Only one class can be extended. | Multiple interfaces can be implemented. |
+
+---
+
+### **Q50. Abstract Class vs Abstract Method**
+
+* **Abstract Class:** Cannot be instantiated, can have abstract & non-abstract methods.
+* **Abstract Method:** Declared without implementation, must be overridden.
+
+---
